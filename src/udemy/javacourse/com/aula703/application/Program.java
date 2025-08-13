@@ -25,8 +25,6 @@ public class Program {
     System.out.println(student.name + ", Final Grade: " + student.finalGrade());
     student.finalStatement();
 
-    
-    
     sc.close();
   }
 }
