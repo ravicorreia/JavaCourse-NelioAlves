@@ -1,10 +1,26 @@
 package udemy.javacourse.com.aula76construtores.entities;
 
 public class Product {
-  
-  public String name;
-  public double price;
-  public int quantity;
+
+  public String getName() {
+    return name;
+  }
+  public void setName(String name) {
+    this.name = name;
+  }
+  public double getPrice() {
+    return price;
+  }
+  public void setPrice(double price) {
+    this.price = price;
+  }
+  public int getQuantity() {
+    return quantity;
+  }
+
+  private String name;
+  private double price;
+  private int quantity;
   
   public Product() {
     // Default constructor
