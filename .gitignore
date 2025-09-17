@@ -4,3 +4,7 @@ bin/
 out/
 lib/
 JavaCourse-NelioAlves.iml
+.settings/
+.classpath
+.project
+target/
